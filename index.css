@@ -668,6 +668,7 @@ input{
     .content .left{
         /* margin: auto; */
         width: 100%;
+        height: 50%;
         order: 2;
     }
     .content .right{
