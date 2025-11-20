@@ -631,6 +631,7 @@ nav a button:hover{
 }
 .social-icon{
     font-size: 1.8em;
+    padding-bottom: 20px;
     color: rgb(59, 146, 59);
     text-shadow: 2px 2px 70px rgba(255, 255, 255, 0.849), 0 0 10px rgba(223, 210, 210, 0.233);
 }
