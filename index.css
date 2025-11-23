@@ -1087,15 +1087,15 @@ input{
         justify-content: center;
         align-items: center; */
      }
-    .img1 .img-up,.img1 #img1{
-        /* height: 250px;
-        width: 350px; */
-        /* left: 115px; */
+    /* .img1 .img-up,.img1 #img1{
+        height: 250px;
+        width: 350px;
+        left: 115px;
      }
      .project-details{
-        /* padding-left: 10px; */
-        /* font-size: 1.5em; */
-     }
+        padding-left: 10px;
+        font-size: 1.5em;
+     } */
     .contact-box{
         grid-template-columns: 1fr;
     }
