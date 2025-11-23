@@ -242,7 +242,7 @@ nav a button:hover{
 }
 .about .right{
     cursor: default;
-    height: 50vh;
+    height: auto;
     width: 100%;
     /* background-color: red; */
     display: flex;
@@ -760,6 +760,25 @@ input{
         width: 70%;
         order: 2;
     }
+    .cube {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        transform-style: preserve-3d; 
+        animation: rotateCube 15s linear infinite;
+    }
+    .face {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+    }
+    #front { transform: translateZ(75px); }
+    #back { transform: translateZ(-75px) rotateY(180deg); }
+    #left { transform: translateX(-75px) rotateY(-90deg); }
+    #right { transform: translateX(75px) rotateY(90deg); }
+    #top { transform: translateY(-75px) rotateX(90deg); }
+    #bottom { transform: translateY(75px) rotateX(-90deg); 
+}
     .content .right{
         width: 100%;
         height: auto;
@@ -779,6 +798,7 @@ input{
         padding: 0 10px;
     }
     .about-con .right{
+        /* width: 290px; */
         margin: 10px;
     }
     .about-con .right p{
@@ -786,7 +806,7 @@ input{
         padding: 0 10%;
     }
     .about .right{
-        height: 50vh;
+        height: auto;
     }
     .content .right img{
         /* margin-top: 50px; */
@@ -799,14 +819,15 @@ input{
     }
 
     .about-con{
+        height: auto;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto auto;
     }
     .about-con .right{
         margin: 20px;
     }
     .about-con .right p{
-        padding: 0 10%;
+        padding: 0 5%;
     }
     .box .circle{
         font-size: 1.6em;
