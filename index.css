@@ -753,7 +753,9 @@ input{
         font-size: 8px;
     }
     .content{
+        height: auto;
         grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
     }
     .content .left{
         margin: auto;
@@ -781,21 +783,23 @@ input{
 }
     .content .right{
         width: 100%;
-        height: auto;
+        height: fit-content;
         /* display: flex;
         align-items: center;
         justify-content: center; */
         order: 1;
     }
     .content .left h2{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .content .left h4{
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .content .left p{
-        font-size: 1em;
-        padding: 0 10px;
+        text-align: justify;
+        line-height: 28px;
+        font-size: 1.3em;
+        padding: 0 7px;
     }
     .about-con .right{
         /* width: 290px; */
@@ -809,9 +813,9 @@ input{
         height: auto;
     }
     .content .right img{
-        /* margin-top: 50px; */
+        margin: 5% 0;
         width: 70%;
-        height: 80%;
+        height: 65%;
     }
 
     .cont{
